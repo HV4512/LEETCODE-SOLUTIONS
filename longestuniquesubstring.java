@@ -4,7 +4,7 @@ class Solution {
 if (s == null || s.length() == 0) 
     return 0;
 
-int i = 0, j = 0, max = 0;
+int i = 0, j = 0, max =0;
 
 Set<Character> set = new HashSet<>();
 
