@@ -23,7 +23,7 @@ public:
         s=cn.size();
         sort(cn.begin(),cn.end());
         for(i=0;i<s-1;i++)
-        {
+      {
             if(cn[i]==cn[i+1])
                 return false;
         }
