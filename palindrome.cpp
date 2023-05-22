@@ -6,8 +6,9 @@ public:
         ss<<x;
         ss>>s;
         st=s;
+        //using reverse function
         reverse(s.begin(),s.end());
-        if(s==st)
+        if(s==st)//checking for palindrome
             return 1;
         return 0;
     }
