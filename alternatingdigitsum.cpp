@@ -10,7 +10,7 @@ public:
 	N = n;
 	while (N != 0)
 	{
-		N /= 10;
+		N =N/10;
 		c++;
 	}
 	while (n != 0)
